@@ -1,0 +1,433 @@
+[{
+	"deviceName": "Beckers",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1638689493.827,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Craighill sugarlot ",
+	"lat": 43.3116,
+	"lon": -72.7856,
+	"utcTime": 1619747921.593,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "UVM PMRC Sap Tank 2 / Research Vacuum",
+	"lat": 44.2082,
+	"lon": -88.3277,
+	"utcTime": 1639915275.12,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Dummerston lot ",
+	"lat": 42.8574,
+	"lon": -72.6297,
+	"utcTime": 1618289753.533,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Ricks East",
+	"lat": 44.2054,
+	"lon": -88.3229,
+	"utcTime": 1630102448.493,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Kane pump house",
+	"lat": 44.9215,
+	"lon": -72.7647,
+	"utcTime": 1640299467.253,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Tank 2",
+	"lat": 44.7443,
+	"lon": -92.352,
+	"utcTime": 1636408804.113,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "SMACK VAC",
+	"lat": 44.8289,
+	"lon": -91.438,
+	"utcTime": 1640275297.29,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Division Ave woods #1",
+	"lat": 44.5976,
+	"lon": -90.3497,
+	"utcTime": 1617587427.49,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Sugar House",
+	"lat": 43.7989,
+	"lon": -73.0925,
+	"utcTime": 1640378806.093,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Dianne's",
+	"lat": 45.0897,
+	"lon": -89.1548,
+	"utcTime": 1618851606.667,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Vac pump",
+	"lat": 42.41,
+	"lon": -78.3694,
+	"utcTime": 1640390430.473,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Marsden",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1638689495.837,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Back system releaser",
+	"lat": 45.0742,
+	"lon": -90.062,
+	"utcTime": 1622300412.48,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Turkey Pass",
+	"lat": 43.5911,
+	"lon": -88.3104,
+	"utcTime": 1617123618.543,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 45.004,
+	"lon": -89.2047,
+	"utcTime": 1627714803.81,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Our woods",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1639632673.563,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "East sap shack ",
+	"lat": 45.8808,
+	"lon": -90.464,
+	"utcTime": 1618269805.153,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Dodge Hollow",
+	"lat": 43.2034,
+	"lon": -72.1985,
+	"utcTime": 1619255129.807,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "The Rock Spy",
+	"lat": 44.3008,
+	"lon": -71.6662,
+	"utcTime": 1639324803.397,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 44.0365,
+	"lon": -88.1697,
+	"utcTime": 1626379052.907,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Dill",
+	"lat": 43.1528,
+	"lon": -71.2277,
+	"utcTime": 1617699647.347,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Turners ",
+	"lat": 42.7555,
+	"lon": -78.2777,
+	"utcTime": 1636117203.693,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 44.4668,
+	"lon": -90.3316,
+	"utcTime": 1637281885.29,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 45.4844,
+	"lon": -91.2671,
+	"utcTime": 1640378048.663,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Lee center",
+	"lat": 43.0848,
+	"lon": -75.3717,
+	"utcTime": 1617510105.527,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Gary's pumphouse",
+	"lat": 44.2078,
+	"lon": -88.3271,
+	"utcTime": 1639129697.277,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 44.189,
+	"lon": -88.2953,
+	"utcTime": 1640368805.143,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Smutts",
+	"lat": 44.9034,
+	"lon": -91.812,
+	"utcTime": 1616810368.763,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Lugo",
+	"lat": 45.1693,
+	"lon": -89.9362,
+	"utcTime": 1618312092.5,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Princel",
+	"lat": 44.2391,
+	"lon": -87.6307,
+	"utcTime": 1617742802.84,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "County Farm",
+	"lat": 43.341,
+	"lon": -72.3102,
+	"utcTime": 1617627603.967,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Clute",
+	"lat": 42.5888,
+	"lon": -77.4113,
+	"utcTime": 1639909234.363,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Easterbrook's pumphouse",
+	"lat": 44.2078,
+	"lon": -88.3271,
+	"utcTime": 1639132575.083,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Wattles Tank",
+	"lat": 41.8564,
+	"lon": -77.4719,
+	"utcTime": 1619337683.42,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Sump Pump",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1638741605.36,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Quesnel Maple Pump House",
+	"lat": 45.2999,
+	"lon": -76.275,
+	"utcTime": 1628183598.88,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Red Series / Martin Block",
+	"lat": 44.2082,
+	"lon": -88.3277,
+	"utcTime": 1639914861.43,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Maple Woods 2",
+	"lat": 42.9141,
+	"lon": -78.079,
+	"utcTime": 1617051603.667,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "UVM PMRC Sap Tank 1",
+	"lat": 44.2082,
+	"lon": -88.3277,
+	"utcTime": 1639915322.297,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "JEM 2 hub",
+	"lat": 42.3227,
+	"lon": -73.5194,
+	"utcTime": 1639699918.423,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 42.7552,
+	"lon": -78.2782,
+	"utcTime": 1635692403.447,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Maple Woods 1",
+	"lat": 42.9017,
+	"lon": -78.2731,
+	"utcTime": 1617044403.137,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Sugar Bush",
+	"lat": 45.1806,
+	"lon": -89.5011,
+	"utcTime": 1618688446.837,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Hill",
+	"lat": 44.6224,
+	"lon": -92.0416,
+	"utcTime": 1618781475.217,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Damitz Road",
+	"lat": 45.0087,
+	"lon": -89.2075,
+	"utcTime": 1618880403.763,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Sugarhouse",
+	"lat": 45.0391,
+	"lon": -89.4222,
+	"utcTime": 1618866003.77,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Stoney Road",
+	"lat": 45.1406,
+	"lon": -89.1823,
+	"utcTime": 1618851470.857,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Main Hub",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1638670238.907,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 44.2082,
+	"lon": -88.3272,
+	"utcTime": 1639632632.597,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Pond drive way ",
+	"lat": 42.7552,
+	"lon": -78.2782,
+	"utcTime": 1635610812.863,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 40.4019,
+	"lon": -83.7727,
+	"utcTime": 1640340427.833,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Device Nickname",
+	"lat": 45.2935,
+	"lon": -89.4719,
+	"utcTime": 1639468038.387,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}, {
+	"deviceName": "Home woods ",
+	"lat": 42.7552,
+	"lon": -78.2782,
+	"utcTime": 1635577503.487,
+	"tempF": 12.3,
+	"sapFlow": 2.34,
+	"gal/tap": 3.45
+}]
