@@ -24,8 +24,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamNoaWxsIiwiYSI6ImNrbHh4aDc3MTBlbGgycG52Nmh4N
 const map = new mapboxgl.Map({
 container: 'map', // container ID
 style: 'mapbox://styles/mapbox/satellite-v9', // style URL
-zoom: 7, // starting zoom
-center: [-90.043, 43.801] // starting center
+zoom: 6, // starting zoom
+center: [-83.043, 44] // starting center
 });
  
 map.on('load', () => {
@@ -51,8 +51,13 @@ map.addLayer({
 // location of the feature, with description HTML from its properties.
 map.on('click', 'places', (e) => {
 // Copy coordinates array.
+console.log(e.features[0]);
 const coordinates = e.features[0].geometry.coordinates.slice();
-const tempF = e.features[0].properties.ATTR_2;
+const tempF = e.features[0].properties.tempF;
+const devName = e.features[0].properties.deviceName;
+const popupTemp = tempF + '° F';
+const sapFlow = e.features[0].properties.sapFlow;
+const galTap = e.features[0].properties.galTap;
  
 // Ensure that if the map is zoomed out such that multiple
 // copies of the feature are visible, the popup appears
@@ -63,7 +68,7 @@ coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
  
 new mapboxgl.Popup()
 .setLngLat(coordinates)
-.setHTML(tempF)
+.setHTML(devName + '<br>' + popupTemp + '<br>' + sapFlow + '<br>' + galTap)
 .addTo(map);
 });
  
