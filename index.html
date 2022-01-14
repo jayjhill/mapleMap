@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Load data from an external GeoJSON file</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+ 
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamNoaWxsIiwiYSI6ImNrZGl0cGlpbzA4ZmEzMm8wZHdkYmJiNDMifQ.C941o-cDXISu58gsmm8sIw';
+const map = new mapboxgl.Map({
+container: 'map', // container ID
+style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+zoom: 7, // starting zoom
+center: [-90.043, 43.801] // starting center
+});
+ 
+map.on('load', () => {
+map.addSource('maple', {
+type: 'geojson',
+data: 'https://mountainlabmaps.com/mapleMap/testData.geojson'
+});
+ 
+map.addLayer({
+'id': 'places',
+'type': 'circle',
+'source': 'maple',
+'paint': {
+'circle-radius': 8,
+'circle-stroke-width': 2,
+'circle-color': 'red',
+'circle-stroke-color': 'white'
+}
+});
+});
+
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', (e) => {
+// Copy coordinates array.
+const coordinates = e.features[0].geometry.coordinates.slice();
+const tempF = e.features[0].properties.ATTR_2;
+ 
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+}
+ 
+new mapboxgl.Popup()
+.setLngLat(coordinates)
+.setHTML(tempF)
+.addTo(map);
+});
+ 
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', () => {
+map.getCanvas().style.cursor = 'pointer';
+});
+ 
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', () => {
+map.getCanvas().style.cursor = '';
+});
+
+</script>
+ 
+</body>
+</html>
